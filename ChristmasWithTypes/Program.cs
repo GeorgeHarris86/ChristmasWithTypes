@@ -7,17 +7,16 @@ namespace ChristmasWithTypes
         static void Main(string[] args)
         {
             var xmas = new Christmas();
-
+            
             var xmasDay = Christmas.Day.Thursday;
 
-            //TODO set Santa's name to Kris Kringle
+            //Done set Santa's name to Kris Kringle
             xmas.Santa = "Kris Kringle";
 
-            //TODO Insert 3 presents you would like for xmas.  They must be strings
-            xmas.Presents =  new string[3]
-            {Console.WriteLine()}; 
+            //Done Insert 3 presents you would like for xmas.  They must be strings
+            xmas.Presents = new string[3] { "Motorcylce", "Glock 45", "Galaxy Fold 5" }; 
 
-            //TODO Set the TreeHeight to 10
+            //Done Set the TreeHeight to 10
             xmas.TreeHeight = 10;
 
             Console.WriteLine($"This year christmas falls on {xmasDay} \n");
